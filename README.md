@@ -26,6 +26,7 @@ Provides a control menu with the following options:
 6.List files in the current directory
 
 7.Show a custom popup message
+------------------------------------------------------------------------
 
 
 ✅ Client (client.py)
@@ -44,7 +45,7 @@ Provides a control menu with the following options:
 *Shows popup messages using PowerShell (Windows only)
 
 *Sends back a list of current directory contents
-
+------------------------------------------------------------------------
 
 
 ⚙️ Tech Stack
@@ -57,7 +58,7 @@ Provides a control menu with the following options:
 *requests – For retrieving public IP location
 
 *os, PowerShell – For system-level operations
-
+------------------------------------------------------------------------
 🧠 Use Cases
 *Educational demonstrations in cybersecurity labs
 
@@ -66,6 +67,9 @@ Provides a control menu with the following options:
 *Parental control / authorized remote support
 
 *Prototyping lightweight remote monitoring tools
+------------------------------------------------------------------------
+
+<pre> pip install -r requirements.txt  </pre>
 
 🛑 This project is not stealthy and is easily detectable. It is for learning purposes only.
 
