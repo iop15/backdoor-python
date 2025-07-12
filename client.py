@@ -14,7 +14,7 @@ def get_location():
         return None, None
 
 s = socket()
-s.connect(('192.168.50.111', 6427))  # Replace with your controller IP
+s.connect(('0.0.0.0', 6427))  # Replace with your controller IP
 
 while True:
     choice = s.recv(1024).decode()
