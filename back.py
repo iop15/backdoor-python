@@ -22,7 +22,7 @@ banner = r"""
 
 def main():
     s = socket.socket()
-    s.bind(('0.0.0.0', 6427))
+    s.bind(('0.0.0.0', 6427)) #Replace with your controller IP
     s.listen()
     s, addr = s.accept()
 
