@@ -26,6 +26,7 @@ Provides a control menu with the following options:
 6.List files in the current directory
 
 7.Show a custom popup message
+-
 ------------------------------------------------------------------------
 
 
@@ -45,6 +46,7 @@ Provides a control menu with the following options:
 *Shows popup messages using PowerShell (Windows only)
 
 *Sends back a list of current directory contents
+-
 ------------------------------------------------------------------------
 
 
@@ -58,6 +60,7 @@ Provides a control menu with the following options:
 *requests – For retrieving public IP location
 
 *os, PowerShell – For system-level operations
+-
 ------------------------------------------------------------------------
 🧠 Use Cases
 *Educational demonstrations in cybersecurity labs
@@ -67,9 +70,17 @@ Provides a control menu with the following options:
 *Parental control / authorized remote support
 
 *Prototyping lightweight remote monitoring tools
+-
 ------------------------------------------------------------------------
-
+Install dependencies:
 <pre> pip install -r requirements.txt  </pre>
+
+<pre> pip install opencv-python -i https://mirrors.aliyun.com/pypi/simple/  </pre>
+
+<pre> pip3 install pillow -i https://pypi.tuna.tsinghua.edu.en/simple/  </pre>
+<pre>pip3 install pyinstaller -i https://pypi.tuna.tsinghua.edu.en/simple/  </pre>
+-
+------------------------------------------------------------------------
 
 🛑 This project is not stealthy and is easily detectable. It is for learning purposes only.
 
