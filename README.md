@@ -1,2 +1,74 @@
-# backdoor-python
-A Python-based remote control system using sockets. Features include webcam capture, screenshots, location tracking, file listing, and message popups. For educational and authorized use only. Requires opencv-python, pyautogui, and requests. Use responsibly.
+🎯 Remote Device Control System (Python Socket Backdoor)
+⚠️ For Educational and Authorized Use Only
+This project is intended solely for educational, research, and authorized penetration testing purposes. Do not use it on devices you do not own or without explicit permission.
+
+🛠 Overview
+This is a lightweight remote control system built using Python sockets. It consists of a server (back.py) and a client (client.py) that allows the operator to remotely interact with a device over a local network or exposed IP.
+
+📦 Features
+✅ Controller (back.py)
+Listens for incoming connections
+
+Displays a full ASCII banner on client connect
+
+Provides a control menu with the following options:
+
+Exit
+
+Restart remote device
+
+Take a webcam photo
+
+Get geolocation (via IP)
+
+Take a screenshot
+
+List files in the current directory
+
+Show a custom popup message
+
+✅ Client (client.py)
+Connects to the controller via IP and port
+
+Executes commands received from the server:
+
+Reboots the machine using system commands
+
+Uses OpenCV to capture webcam images
+
+Takes screenshots with pyautogui
+
+Fetches location data using ipinfo.io
+
+Shows popup messages using PowerShell (Windows only)
+
+Sends back a list of current directory contents
+
+⚙️ Tech Stack
+socket – For TCP communication
+
+OpenCV – For webcam integration
+
+pyautogui – For taking screenshots
+
+requests – For retrieving public IP location
+
+os, PowerShell – For system-level operations
+
+🧠 Use Cases
+Educational demonstrations in cybersecurity labs
+
+Red team simulation and training
+
+Parental control / authorized remote support
+
+Prototyping lightweight remote monitoring tools
+
+🛑 This project is not stealthy and is easily detectable. It is for learning purposes only.
+
+🛡 Legal & Ethical Notice
+🚨 Do NOT use this tool on devices you don’t own or without explicit written permission.
+
+🚨 Unauthorized access to systems is illegal and unethical.
+
+🚨 The author assumes no liability for misuse.
