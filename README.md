@@ -13,56 +13,59 @@ Displays a full ASCII banner on client connect
 
 Provides a control menu with the following options:
 
-Exit
+1.Exit
 
-Restart remote device
+2.Restart remote device
 
-Take a webcam photo
+3.Take a webcam photo
 
-Get geolocation (via IP)
+4.Get geolocation (via IP)
 
-Take a screenshot
+5.Take a screenshot
 
-List files in the current directory
+6.List files in the current directory
 
-Show a custom popup message
+7.Show a custom popup message
+
 
 ✅ Client (client.py)
-Connects to the controller via IP and port
+*Connects to the controller via IP and port
 
-Executes commands received from the server:
+*Executes commands received from the server:
 
-Reboots the machine using system commands
+*Reboots the machine using system commands
 
-Uses OpenCV to capture webcam images
+*Uses OpenCV to capture webcam images
 
-Takes screenshots with pyautogui
+*Takes screenshots with pyautogui
 
-Fetches location data using ipinfo.io
+*Fetches location data using ipinfo.io
 
-Shows popup messages using PowerShell (Windows only)
+*Shows popup messages using PowerShell (Windows only)
 
-Sends back a list of current directory contents
+*Sends back a list of current directory contents
+
+
 
 ⚙️ Tech Stack
-socket – For TCP communication
+*socket – For TCP communication
 
-OpenCV – For webcam integration
+*OpenCV – For webcam integration
 
-pyautogui – For taking screenshots
+*pyautogui – For taking screenshots
 
-requests – For retrieving public IP location
+*requests – For retrieving public IP location
 
-os, PowerShell – For system-level operations
+*os, PowerShell – For system-level operations
 
 🧠 Use Cases
-Educational demonstrations in cybersecurity labs
+*Educational demonstrations in cybersecurity labs
 
-Red team simulation and training
+*Red team simulation and training
 
-Parental control / authorized remote support
+*Parental control / authorized remote support
 
-Prototyping lightweight remote monitoring tools
+*Prototyping lightweight remote monitoring tools
 
 🛑 This project is not stealthy and is easily detectable. It is for learning purposes only.
 
