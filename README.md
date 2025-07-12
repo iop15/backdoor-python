@@ -5,6 +5,10 @@ This project is intended solely for educational, research, and authorized penetr
 🛠 Overview
 This is a lightweight remote control system built using Python sockets. It consists of a server (back.py) and a client (client.py) that allows the operator to remotely interact with a device over a local network or exposed IP.
 
+
+<img width="1523" height="678" alt="image" src="https://github.com/user-attachments/assets/a4f28290-d282-48aa-9f3f-9f475d9c2f49" />
+
+
 📦 Features
 ✅ Controller (back.py)
 Listens for incoming connections
